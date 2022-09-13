@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/website/photos/background.jpeg);
+    background-size: cover
+    ;
+    position: relative;
+}
+.app{
+    position: relative;
+}
+.headline{
+    background-color: #0F3460;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 10px;
+    font-size: 40px;
+    display: inline-block;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+.zip{
+    width: 40vw;
+    margin-left: 13vw;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#zip{
+    height: 40px;
+    width: 200px;
+    margin-left: 15px;
+    background-color: #533483;
+    font-size: 20px;
+    color: aliceblue;
+}
+#zipError{
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    margin-left: 20vw;
+    color: white;
+    font-size: 22px;
+    padding-top: 5px;
+}
+#zip::placeholder{
+    color: aquamarine;
+}
+.feel{
+    width: 70vw;
+    margin-left: 7vw;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    display: inline-block;
+
+}
+#feelings label{
+    display: inline-block;
+}
+#feelings{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #533483;
+    color: aliceblue;
+    font-size: 20px;
+}
+#feelings::placeholder{
+    color: aquamarine;
+}
+#gen{
+    position: relative;
+    cursor: pointer;
+}
+#generate{
+    padding: 10px;
+    font-size: 20px;
+    background-color: aquamarine;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    position: absolute;
+    left: 70vw;
+    cursor: pointer;
+    display: block;
+
+}
+#generate:hover{
+    background-color: #533483;
+}
+div.entry{
+    width: 25vw;
+    margin-left: 34.5vw;
+    background-color: transparent;
+    border: 3px solid #533483;
+    height: 25vh;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+#entryHolder{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
